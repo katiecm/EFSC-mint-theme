@@ -354,3 +354,14 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
     border: 1px dashed var(--tertiary);
   }
 }
+/* Custom EFSC override to change the blue circle for unread indicators */
+
+.topic-list .unread-indicator,
+.topic-list .unread {
+  background-color: #4aa87a !important; /* Eaternity green */
+}
+
+/* Optional: override category badge background color */
+.badge-category-bg {
+  background-color: #4aa87a !important;
+}
