@@ -6,10 +6,10 @@
 
 #main-outlet-wrapper {
   .sidebar-wrapper {
-    background-color: var(--secondary-very-low);
+    background-color: var(--primary-very-low);
     box-shadow:
-      0 8px 60px 0 var(--primary-low),
-      0 12px 90px 0 var(--tertiary-low);
+      0 8px 60px 0 rgb(103, 151, 255, 0.1),
+      0 12px 90px 0 rgb(133, 255, 103, 0.1);
     margin-top: 1em;
     border-top: 8px solid var(--tertiary);
     border-radius: var(--mint-border-radius);
@@ -17,7 +17,6 @@
       var(--composer-vh, var(--1dvh)) * 100 - var(--header-offset, 0px) - 3em
     );
     top: calc(var(--header-offset) + 1em);
-  
 
     .sidebar-container {
       border: none;
