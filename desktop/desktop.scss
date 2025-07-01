@@ -3,10 +3,10 @@
 body:not(.navigation-categories, .navigation-topics) #main-outlet {
   border-radius: var(--mint-border-radius);
   box-shadow:
-    0 8px 60px 0 rgb(103, 151, 255, 0.1),
-    0 12px 90px 0 rgb(133, 255, 103, 0.1);
+    0 8px 60px 0 var(--highlight-selected),
+    0 12px 90px 0 var(--highlight-hover);
   padding: 2em;
-  border-top: 8px solid $tertiary;
+  border-top: 8px solid var(--tertiary);
   margin-top: 1em;
 
   @include mint-card-bg;
@@ -26,7 +26,7 @@ body:not(.navigation-categories, .navigation-topics) #main-outlet {
   width: 500px;
   height: 500px;
   border-radius: 2000px;
-  background: var(--color-circle-gradient);
+  background: var(--tertiary);
   right: 1px;
   top: -57px;
 }
@@ -38,11 +38,4 @@ body:not(.navigation-categories, .navigation-topics) #main-outlet {
   z-index: -1;
   width: 300px;
   height: 300px;
-  border-radius: 30px;
-  background: $color-square-webkit-gradient;
-  background: $color-square-gradient;
-  left: 70px;
-  top: 350px;
-  transform: rotate(74deg);
-  transform-origin: 0 100%;
-}
+  border-radius: 30px
