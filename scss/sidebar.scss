@@ -17,15 +17,13 @@
       var(--composer-vh, var(--1dvh)) * 100 - var(--header-offset, 0px) - 3em
     );
     top: calc(var(--header-offset) + 1em);
-  }
-}
+  
 
     .sidebar-container {
       border: none;
     }
   }
 }
-
 .sidebar-footer-wrapper {
   background: var(--primary-very-low);
 }
